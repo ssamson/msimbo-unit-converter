@@ -1,0 +1,15 @@
+body {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+#output {
+    display: none;
+}
+
+.card {transition: all 0.5s;
+}
+
+.card:hover {
+    transform: scale(1.1);
+}
