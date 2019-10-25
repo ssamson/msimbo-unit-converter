@@ -13,8 +13,7 @@ function convert() {
     // gram
     document.querySelector("#gram").textContent = input.value * 453.592;
     // kilogram
-    document.querySelector("kilogram").textContent =
-        (input.value * 453.592) / 1000;
+    document.querySelector("#kilogram").textContent = (input.value * 453.592) / 1000;
     // ounce
     document.querySelector("#ounce").textContent = input.value * 16;
 }
